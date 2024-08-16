@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ustoz Berganla</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex items-center justify-center h-screen">
+    <div class="w-1/3 flex flex-col gap-1 text-2xl">
+        <button class="btn btn-primary" onclick="additem()">Qoshish</button>
+        <button class="btn btn-primary" onclick="getitem()">Chaqirish</button>
+        <button class="btn btn-error" onclick="removeitem()">Ochirish</button>
+        <button class="btn btn-error" onclick="clearItems()">Hammasini ochirish</button>
+        <button class="btn btn-accent" onclick="lengthItems()">Itemlar soni</button>
+
+
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
